@@ -1,9 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Comp from './component'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Primeiro, { Segundo } from './component'; // se estiver em ./component.jsx
 
-ReactDOM.render(<Comp value='show' />,
-    <h1>Olá React</h1>,
-    document.getElementById('app')
-  );
-  
+ReactDOM.render(
+  <div>
+    <Primeiro />
+    <Segundo />
+  </div>,
+  document.getElementById('app')
+);
