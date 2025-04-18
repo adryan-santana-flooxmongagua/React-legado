@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClassComp from './classComp';
+import Field from './field';
 
 ReactDOM.render(
-   <ClassComp label='Contador' initialValue={10} />
+   <Field initialValue='test' />
     ,document.getElementById('app')
   );
   
