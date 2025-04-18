@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import ClassComp from './classComp';
 
 ReactDOM.render(
-   <ClassComp value='Compo class'/>
+   <ClassComp label='Contador' initialValue={10} />
     ,document.getElementById('app')
   );
   
